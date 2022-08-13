@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G730" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ProductList" representedClassName="ProductList" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="categoryname" optional="YES" attributeType="String"/>
+        <attribute name="categorytype" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="tax" optional="YES" attributeType="String"/>
+        <attribute name="totalamount" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserDetails" representedClassName="UserDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="confirmpassword" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ProductList" positionX="-54" positionY="18" width="128" height="119"/>
+        <element name="UserDetails" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>
